@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
@@ -330,8 +329,7 @@
     .scope-box--info .scope-text { color: #1E3A8A; }
     .scope-box--info a { color: #1E3A8A; text-decoration: underline; }
     .scope-box--warning { border-left: 4px solid #F59E0B; }
-
-  </style>
+</style>
 <style>/* Self-hosted Bootstrap 5.3.6 */
 @charset "UTF-8";/*!
  * Bootstrap  v5.3.6 (https://getbootstrap.com/)
@@ -459,6 +457,15 @@ section {
   .quick-exit,
   .safety-strip,
   .skip-link {
+    display: none !important;
+  }
+}
+</style>
+
+<style>
+@media print {
+  html,
+  body {
     display: none !important;
   }
 }
